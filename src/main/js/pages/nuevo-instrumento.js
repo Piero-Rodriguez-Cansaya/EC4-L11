@@ -35,7 +35,7 @@ const PageNuevoInstrumento = () => {
                 <textarea cols={30} id="descripcion" name="descripcion" onChange={(e)=>setDescripcion(e.target.value)}></textarea>
                 <br />
                 <br />
-                <input type="submit" value="Nuevo Instrumento" />
+                <input type="submit" value="Nuevo Producto" />
             </form>
             <Link to="/">Volver</Link>
         </>

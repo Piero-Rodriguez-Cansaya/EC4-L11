@@ -41410,7 +41410,7 @@ var PageNuevoInstrumento = function PageNuevoInstrumento() {
     }
   }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("input", {
     type: "submit",
-    value: "Nuevo Instrumento"
+    value: "Nuevo Producto"
   })), /*#__PURE__*/React.createElement(Link, {
     to: "/"
   }, "Volver"));
@@ -41591,7 +41591,7 @@ var PageNuevoMusico = function PageNuevoMusico() {
     }
   }), /*#__PURE__*/React.createElement("input", {
     type: "submit",
-    value: "Nuevo M\xFAsico"
+    value: "Nueva Venta"
   })), /*#__PURE__*/React.createElement(Link, {
     to: "/"
   }, "Volver"));
