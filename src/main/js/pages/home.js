@@ -22,7 +22,7 @@ class PageHome extends React.Component {
 	render() {
 		return (
 			<>
-				<h1>Demo App!</h1>
+				<h1>EV4</h1>
 
 				<div style={{"width": "100%", "display": "flex"}}>
 					<div style={{"width": "calc(100% / 3)"}}>
