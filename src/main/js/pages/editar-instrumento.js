@@ -30,7 +30,7 @@ const PageEditarInstrumento = ()=>{
 
     return(
         <>
-            <h1>Editar Instrumento: {id}</h1>
+            <h1>Editar Producto: {id}</h1>
 
             <form onSubmit={handleSubmit}>
 
@@ -58,7 +58,7 @@ const PageEditarInstrumento = ()=>{
                     onChange={(e)=>{setInstrumento({...instrumento, descripcion: e.target.value})}} />
                 <br/>
                 
-                <input type='submit' value={`Editar Instrumento ${id}`} />
+                <input type='submit' value={`Editar Producto ${id}`} />
             </form>
             <Link to="/">Volver</Link>
         </>

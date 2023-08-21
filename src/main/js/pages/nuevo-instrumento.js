@@ -23,7 +23,7 @@ const PageNuevoInstrumento = () => {
 
     return (
         <>
-            <h1>Nuevo Instrumento</h1>
+            <h1>Nuevo Producto</h1>
             <form onSubmit={handleSubmit}>
             <label htmlFor='nombre'>Nombre</label>
                 <input type="text" id="nombre" name="nombre" onChange={(e)=>setNombre(e.target.value)} />

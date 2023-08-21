@@ -30,7 +30,7 @@ const PageEditarMusico = ()=>{
 
     return(
         <>
-            <h1>Editar Musico: {id}</h1>
+            <h1>Editar Venta: {id}</h1>
 
             <form onSubmit={handleSubmit}>
                 <label>Nombre</label>
@@ -40,7 +40,7 @@ const PageEditarMusico = ()=>{
                     value={musico.nombre}
                     onChange={(e)=>{setMusico({...musico, nombre: e.target.value})}} />
                 <br/>
-                <input type='submit' value={`Editar Musico ${id}`} />
+                <input type='submit' value={`Editar Venta ${id}`} />
             </form>
             <Link to="/">Volver</Link>
         </>

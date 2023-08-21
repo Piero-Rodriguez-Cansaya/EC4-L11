@@ -27,27 +27,27 @@ public class DatabaseLoader implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 		
-		Instrumento iVoz = new Instrumento("Voz", "Viento", "Voz humana");
-		Instrumento iGuitarrElectrica = new Instrumento("Guitarra Eléctrica", "Eléctrica", "de madera, SIN caja de resonancia, 6 cuerdas templadas metálicas, pastillas y amplificador");
-		Instrumento iBajo = new Instrumento("Bajo", "Eléctrico", "Ritmos");
-		this.repositoryI.save(new Instrumento("Guitarra Acústica", "Cuerda", "de madera, con caja de resonancia, 6 cuerdas templadas"));
-		this.repositoryI.save(new Instrumento("Ukelele","Cuerda","de madera, con caja de resonancia pequeña, 4 cuerdas templadas"));
-		this.repositoryI.save(new Instrumento("Melódica","Viento","teclado pequeño de 2 octavas, sonorizado por soplido"));
+		Instrumento iVoz = new Instrumento("Pastel", "Postre", "Postre");
+		Instrumento iGuitarrElectrica = new Instrumento("Guitarra", "Instrumento", "");
+		Instrumento iBajo = new Instrumento("Monitor", "Electrodomestico", "");
+		this.repositoryI.save(new Instrumento("Television", "Electrodomestico", ""));
+		this.repositoryI.save(new Instrumento("PS4","Electrodomestico",""));
+		this.repositoryI.save(new Instrumento("Helado","Postre",""));
 		this.repositoryI.save(iVoz);
 		this.repositoryI.save(iGuitarrElectrica);
 		this.repositoryI.save(iBajo);
-		this.repositoryI.save(new Instrumento("Batería", "Percusión", "Percisiones"));
+		this.repositoryI.save(new Instrumento("Cafe", "Bebida", ""));
 
-		Musico mFreddie = new Musico("Freddie");
-		Musico mBrian = new Musico("Brian");
-		Musico mRogerWaters = new Musico("Roger Waters");
+		Musico mFreddie = new Musico("10");
+		Musico mBrian = new Musico("100");
+		Musico mRogerWaters = new Musico("10000");
 		this.repositoryM.save(mFreddie);
 		this.repositoryM.save(mBrian);
 		this.repositoryM.save(mRogerWaters);
-		this.repositoryM.save(new Musico("Roger"));
+		this.repositoryM.save(new Musico("200"));
 
-		Banda bQueen = new Banda("Queen");
-		Banda bPinkFloyd = new Banda("Pink Floyd");
+		Banda bQueen = new Banda("20");
+		Banda bPinkFloyd = new Banda("10");
 		this.repositoryB.save(bQueen);
 		this.repositoryB.save(bPinkFloyd);
 

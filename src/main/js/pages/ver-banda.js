@@ -30,7 +30,7 @@ const PageVerBanda = () => {
 
     return (
         <>
-            <h1>Banda</h1>
+            <h1>VentaDetalle</h1>
             <table border="1">
                 <tbody>
                     <tr>
@@ -42,12 +42,12 @@ const PageVerBanda = () => {
 
             <hr />
 
-            <h2>integrantes</h2>
+            <h2>Producto</h2>
             <table border="1">
                 <thead>
                     <tr>
-                        <th>Musico</th>
-                        <th>Instrumento</th>
+                        <th>Venta</th>
+                        <th>Producto</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -66,7 +66,7 @@ const PageVerBanda = () => {
                 </tbody>
             </table>
             <hr />
-            <Link to={`/ver-banda/${id}/nuevo-integrante`}>Agregar integrante</Link> |  
+            <Link to={`/ver-banda/${id}/nuevo-integrante`}>Agregar</Link> |  
             <Link to="/">Volver</Link>
         </>
     )

@@ -23,7 +23,7 @@ const PageVerInstrumento = (props) => {
 
     return (
         <>
-            <h1>Ver Instrumento</h1>
+            <h1>Ver Producto</h1>
             <table>
                 <tr>
                     <th>Nombre</th>

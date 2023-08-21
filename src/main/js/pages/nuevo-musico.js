@@ -21,7 +21,7 @@ const PageNuevoMusico = () => {
 
     return (
         <>
-            <h1>Nuevo Músico</h1>
+            <h1>Nueva Venta</h1>
             <form onSubmit={handleSubmit}>
                 <label>Nombre</label>
                 <input type="text" id="nombre" name="nombre" onChange={(e)=>setNombre(e.target.value)} />
